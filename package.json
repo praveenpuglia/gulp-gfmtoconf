@@ -1,0 +1,35 @@
+{
+    "name": "gulp-gfmtoconf",
+    "version": "1.0.0",
+    "description": "Converts Github flavoured markdown to Confluence Wiki markup",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "github",
+        "confluence",
+        "converter",
+        "markdown",
+        "markup"
+    ],
+    "repository": "praveenpuglia/gulp-gfmtoconf",
+    "author": {
+        "name": "Praveen Puglia",
+        "email": "praveenpuglia@gmail.com",
+        "url": "http://praveenpuglia.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/praveenpuglia/gulp-gfmtoconf/issues"
+    },
+    "homepage": "https://github.com/praveenpuglia/gulp-gfmtoconf#readme",
+    "dependencies": {
+        "gulp-util": "^3.0.8",
+        "markdown2confluence": "^1.2.0",
+        "through2": "^2.0.3"
+    },
+    "devDependencies": {
+        "mocha": "^3.2.0"
+    }
+}
