@@ -7,7 +7,7 @@ npm install --save gulp-gfmtoconf
 ```
 
 ## Usage
-```
+```js
 let gulp = require("gulp");
 let converter = require("gulp-gfmtoconf");
 
